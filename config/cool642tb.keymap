@@ -63,6 +63,15 @@
 
             tap-ms = <2>;
         };
+
+        volume: volume {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "VOLUME";
+            #sensor-binding-cells = <0>;
+            bindings = <&kt C_VOLUME_UP>, <&kp C_VOL_DN>;
+
+            tap-ms = <2>;
+        };
     };
 
     keymap {
@@ -87,7 +96,7 @@
 &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans                                              &trans
             >;
 
-            sensor-bindings = <&zoom>;
+            sensor-bindings = <&volume>;
         };
 
         ARROW-SYMBOL {
