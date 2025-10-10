@@ -52,7 +52,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&kp LG(EQUAL)>, <&kp LG(MINUS)>;
 
-            tap-ms = <2>;
+            tap-ms = <50>;
         };
 
         scroll: scroll {
@@ -61,7 +61,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-            tap-ms = <2>;
+            tap-ms = <50>;
         };
 
         volume: volume {
@@ -70,7 +70,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&kp C_VOLUME_UP>, <&kp C_VOL_DN>;
 
-            tap-ms = <2>;
+            tap-ms = <50>;
         };
     };
 
