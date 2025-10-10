@@ -46,12 +46,22 @@
             tapping-term-ms = <200>;
         };
 
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+        zoom: zoom {
             compatible = "zmk,behavior-sensor-rotate";
+            label = "ZOOM";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            bindings = <&kp LG(EQUAL)>, <&kp LG(MINUS)>;
 
-            tap-ms = <20>;
+            tap-ms = <2>;
+        };
+
+        scroll: scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SCROLL";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+            tap-ms = <2>;
         };
     };
 
@@ -66,7 +76,7 @@
 &kp LCTRL  &kp LALT  &kp LEFT_COMMAND  &kp BSPC  &kp SPACE  &lt 1 ENTER  &mo 2   &kp SPACE                                &kp LEFT_SHIFT
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&zoom>;
         };
 
         NUM {
