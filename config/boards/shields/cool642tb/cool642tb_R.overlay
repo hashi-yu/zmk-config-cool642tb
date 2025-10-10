@@ -22,7 +22,7 @@
         device = <&trackball>;
 
     /* AML追記 */
-     input-processors = <&zip_temp_layer 5 10000>;
+     input-processors = <&zip_temp_layer 3 10000>;
 
     /* Layer1にするとスクロールを有効化 */
     scroller {
