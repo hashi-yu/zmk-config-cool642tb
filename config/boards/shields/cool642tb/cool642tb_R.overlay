@@ -23,6 +23,8 @@
         30 // M
         31 // ,
     >;
+
+    require-prior-idle-ms = <250>;
 };
 
 
