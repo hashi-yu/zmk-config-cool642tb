@@ -144,7 +144,7 @@
             sensor-bindings = <&zoom>;
         };
 
-        SCROLL {
+        scr1 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
