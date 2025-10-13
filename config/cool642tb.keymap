@@ -143,5 +143,14 @@
 
             sensor-bindings = <&zoom>;
         };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
     };
 };
