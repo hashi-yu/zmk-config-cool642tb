@@ -43,15 +43,6 @@
             #sensor-binding-cells = <0>;
             bindings = <&kp LG(EQUAL)>, <&kp LG(MINUS)>;
 
-            tap-ms = <10>;
-        };
-
-        scroll: scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "SCROLL";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-
             tap-ms = <3>;
         };
 
@@ -76,7 +67,7 @@
 &kp LCTRL  &kp LALT  &kp LSHFT  &kp LGUI  &kp SPACE  &lt 1 ENTER  &lt 2 BACKSPACE  &kp SPACE                                &kp RIGHT_GUI
             >;
 
-            sensor-bindings = <&scroll>;
+            sensor-bindings = <&zoom>;
         };
 
         NUM {
