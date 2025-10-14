@@ -50,9 +50,9 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-            tap-ms = <10>;
+            tap-ms = <3>;
         };
 
         volume: volume {
@@ -76,7 +76,7 @@
 &kp LCTRL  &kp LALT  &kp LSHFT  &kp LGUI  &kp SPACE  &lt 1 ENTER  &lt 2 BACKSPACE  &kp SPACE                                &kp RIGHT_GUI
             >;
 
-            sensor-bindings = <&zoom>;
+            sensor-bindings = <&scroll>;
         };
 
         NUM {
@@ -97,8 +97,6 @@
 &kp LA(EQUAL)  &kp AT           &kp LESS_THAN         &kp GREATER_THAN       &kp LA(LS(LANGUAGE_7))  &trans  &trans  &trans  &trans    &trans    &trans     &trans
 &trans         &trans           &trans                &trans                 &trans                  &trans  &trans  &trans                                 &trans
             >;
-
-            sensor-bindings = <&zoom>;
         };
 
         MOUSE {
@@ -108,8 +106,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3   &mkp MB4   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans
             >;
-
-            sensor-bindings = <&zoom>;
         };
 
         layer_4 {
