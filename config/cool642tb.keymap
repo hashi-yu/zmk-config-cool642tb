@@ -83,7 +83,7 @@
 
         arrowandsymbol {
             bindings = <
-&kp LCTRL      &kp LALT         &kp LSHFT             &kp LGUI               &trans                                     &trans  &trans    &kp UP    &trans     &trans
+&trans         &trans           &kp LSHFT             &kp LGUI               &trans                                     &trans  &trans    &kp UP    &trans     &trans
 &kp QUESTION   &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE          &trans  &trans     &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
 &kp LA(EQUAL)  &kp AT           &kp LESS_THAN         &kp GREATER_THAN       &kp LA(LS(LANGUAGE_7))  &trans  &trans     &trans  &trans    &trans    &trans     &trans
 &trans         &trans           &trans                &trans                 &trans                  &trans  &kp LANG1  &trans                                 &trans
